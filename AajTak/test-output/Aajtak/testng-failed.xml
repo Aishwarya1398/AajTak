@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Aajtak]">
+  <listeners>
+    <listener class-name="com.aajtak.android.listener.MyExtentListners"/>
+  </listeners>
+  <test thread-count="1" name="Aajtak_Test1(failed)">
+    <classes>
+      <class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_011">
+        <methods>
+          <include name="fileConfiguration"/>
+          <include name="loadLog4j"/>
+          <include name="AT_Home_011"/>
+          <include name="setUp"/>
+          <include name="startServer"/>
+        </methods>
+      </class> <!-- com.aajtak.android.HomeScreen.TC_AT_HomeScreen_011 -->
+      <class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_007">
+        <methods>
+          <include name="fileConfiguration"/>
+          <include name="loadLog4j"/>
+          <include name="setUp"/>
+          <include name="startServer"/>
+          <include name="AT_Home_007"/>
+        </methods>
+      </class> <!-- com.aajtak.android.HomeScreen.TC_AT_HomeScreen_007 -->
+      <class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_008">
+        <methods>
+          <include name="fileConfiguration"/>
+          <include name="loadLog4j"/>
+          <include name="AT_Home_008"/>
+          <include name="setUp"/>
+          <include name="startServer"/>
+        </methods>
+      </class> <!-- com.aajtak.android.HomeScreen.TC_AT_HomeScreen_008 -->
+      <class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_014">
+        <methods>
+          <include name="AT_Home_014"/>
+          <include name="fileConfiguration"/>
+          <include name="loadLog4j"/>
+          <include name="setUp"/>
+          <include name="startServer"/>
+        </methods>
+      </class> <!-- com.aajtak.android.HomeScreen.TC_AT_HomeScreen_014 -->
+      <class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_016">
+        <methods>
+          <include name="fileConfiguration"/>
+          <include name="loadLog4j"/>
+          <include name="startServer"/>
+          <include name="setUp"/>
+          <include name="AT_Home_016"/>
+        </methods>
+      </class> <!-- com.aajtak.android.HomeScreen.TC_AT_HomeScreen_016 -->
+      <class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_010">
+        <methods>
+          <include name="fileConfiguration"/>
+          <include name="loadLog4j"/>
+          <include name="startServer"/>
+          <include name="setUp"/>
+          <include name="AT_Home_010"/>
+        </methods>
+      </class> <!-- com.aajtak.android.HomeScreen.TC_AT_HomeScreen_010 -->
+      <class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_003">
+        <methods>
+          <include name="AT_Home_003"/>
+          <include name="fileConfiguration"/>
+          <include name="loadLog4j"/>
+          <include name="startServer"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.aajtak.android.HomeScreen.TC_AT_HomeScreen_003 -->
+      <class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_015">
+        <methods>
+          <include name="fileConfiguration"/>
+          <include name="loadLog4j"/>
+          <include name="AT_Home_015"/>
+          <include name="setUp"/>
+          <include name="startServer"/>
+        </methods>
+      </class> <!-- com.aajtak.android.HomeScreen.TC_AT_HomeScreen_015 -->
+      <class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_013">
+        <methods>
+          <include name="fileConfiguration"/>
+          <include name="loadLog4j"/>
+          <include name="startServer"/>
+          <include name="setUp"/>
+          <include name="AT_Home_013"/>
+        </methods>
+      </class> <!-- com.aajtak.android.HomeScreen.TC_AT_HomeScreen_013 -->
+      <class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_017">
+        <methods>
+          <include name="fileConfiguration"/>
+          <include name="AT_Home_017"/>
+          <include name="loadLog4j"/>
+          <include name="setUp"/>
+          <include name="startServer"/>
+        </methods>
+      </class> <!-- com.aajtak.android.HomeScreen.TC_AT_HomeScreen_017 -->
+      <class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_009">
+        <methods>
+          <include name="AT_Home_009"/>
+          <include name="fileConfiguration"/>
+          <include name="loadLog4j"/>
+          <include name="setUp"/>
+          <include name="startServer"/>
+        </methods>
+      </class> <!-- com.aajtak.android.HomeScreen.TC_AT_HomeScreen_009 -->
+      <class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_005">
+        <methods>
+          <include name="fileConfiguration"/>
+          <include name="loadLog4j"/>
+          <include name="startServer"/>
+          <include name="setUp"/>
+          <include name="AT_Home_005"/>
+        </methods>
+      </class> <!-- com.aajtak.android.HomeScreen.TC_AT_HomeScreen_005 -->
+      <class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_002">
+        <methods>
+          <include name="fileConfiguration"/>
+          <include name="loadLog4j"/>
+          <include name="startServer"/>
+          <include name="setUp"/>
+          <include name="AT_Home_002"/>
+        </methods>
+      </class> <!-- com.aajtak.android.HomeScreen.TC_AT_HomeScreen_002 -->
+      <class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_012">
+        <methods>
+          <include name="AT_Home_012"/>
+          <include name="fileConfiguration"/>
+          <include name="loadLog4j"/>
+          <include name="setUp"/>
+          <include name="startServer"/>
+        </methods>
+      </class> <!-- com.aajtak.android.HomeScreen.TC_AT_HomeScreen_012 -->
+      <class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_006">
+        <methods>
+          <include name="fileConfiguration"/>
+          <include name="AT_Home_006"/>
+          <include name="loadLog4j"/>
+          <include name="startServer"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.aajtak.android.HomeScreen.TC_AT_HomeScreen_006 -->
+      <class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_004">
+        <methods>
+          <include name="fileConfiguration"/>
+          <include name="loadLog4j"/>
+          <include name="AT_Home_004"/>
+          <include name="startServer"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.aajtak.android.HomeScreen.TC_AT_HomeScreen_004 -->
+    </classes>
+  </test> <!-- Aajtak_Test1(failed) -->
+</suite> <!-- Failed suite [Aajtak] -->

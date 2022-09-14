@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite thread-count="1" configfailurepolicy="continue" name="Aajtak">
+	<listeners>
+		<listener class-name="com.aajtak.android.listener.MyExtentListners" />
+	</listeners>
+	<test thread-count="1" name="Aajtak_Test1">
+		<classes>
+		<class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_001"></class>
+		<class name ="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_002"></class>
+		<class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_003"></class>
+		<class name ="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_004"></class>
+		<class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_005"></class>
+		<class name ="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_006"></class>
+		<class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_007"></class>
+		<class name ="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_008"></class>
+		<class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_009"></class>
+		<class name ="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_010"></class>
+		<class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_011"></class>
+		<class name ="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_012"></class>
+		<class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_013"></class>
+		<class name ="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_014"></class>
+		<class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_015"></class>
+		<class name ="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_016"></class>
+		<class name="com.aajtak.android.HomeScreen.TC_AT_HomeScreen_017"></class>
+		
+		</classes>
+	</test> <!-- Aajtak_Test1 -->
+</suite> <!-- Aajtak -->
+		
